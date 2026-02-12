@@ -31,3 +31,4 @@ C:\Users\Admin\Desktop\SU - Магистратура\Devops\DevOpsPractice.Api\o
 C:\Users\Admin\Desktop\SU - Магистратура\Devops\DevOpsPractice.Api\obj\Debug\net8.0\DevOpsPractice.Api.pdb
 C:\Users\Admin\Desktop\SU - Магистратура\Devops\DevOpsPractice.Api\obj\Debug\net8.0\DevOpsPractice.Api.genruntimeconfig.cache
 C:\Users\Admin\Desktop\SU - Магистратура\Devops\DevOpsPractice.Api\obj\Debug\net8.0\ref\DevOpsPractice.Api.dll
+C:\Users\Admin\Desktop\SU - Магистратура\Devops\DevOpsPractice.Api\obj\Debug\net8.0\DevOpsPractice.Api.sourcelink.json

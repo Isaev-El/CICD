@@ -110,3 +110,4 @@ C:\Users\Admin\Desktop\SU - Магистратура\Devops\DevOpsPractice.Tests
 C:\Users\Admin\Desktop\SU - Магистратура\Devops\DevOpsPractice.Tests\obj\Debug\net8.0\DevOpsPractice.Tests.pdb
 C:\Users\Admin\Desktop\SU - Магистратура\Devops\DevOpsPractice.Tests\obj\Debug\net8.0\DevOpsPractice.Tests.genruntimeconfig.cache
 C:\Users\Admin\Desktop\SU - Магистратура\Devops\DevOpsPractice.Tests\obj\Debug\net8.0\ref\DevOpsPractice.Tests.dll
+C:\Users\Admin\Desktop\SU - Магистратура\Devops\DevOpsPractice.Tests\obj\Debug\net8.0\DevOpsPractice.Tests.sourcelink.json
