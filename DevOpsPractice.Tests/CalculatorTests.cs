@@ -11,6 +11,6 @@ public class CalculatorTests
 
         var result = service.Add(2, 3);
 
-        Assert.Equal(10, result);
+        Assert.Equal(5, result);
     }
 }
