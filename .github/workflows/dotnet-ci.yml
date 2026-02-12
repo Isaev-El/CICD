@@ -9,11 +9,10 @@ on:
 jobs:
 
   build:
-
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
+    - name: Checkout
       uses: actions/checkout@v4
 
     - name: Setup .NET
@@ -21,7 +20,7 @@ jobs:
       with:
         dotnet-version: 8.0.x
 
-    - name: Restore dependencies
+    - name: Restore
       run: dotnet restore
 
     - name: Build
@@ -30,21 +29,20 @@ jobs:
     - name: Test
       run: dotnet test --no-build --configuration Release
 
-    deploy:
-
+  deploy:
     runs-on: ubuntu-latest
     needs: build
     if: github.ref == 'refs/heads/main'
 
     steps:
-    - uses: actions/checkout@v4
+    - name: Checkout
+      uses: actions/checkout@v4
 
-    - name: Publish project
+    - name: Publish
       run: dotnet publish -c Release -o publish
 
-    - name: Upload artifact (staging)
+    - name: Upload artifact
       uses: actions/upload-artifact@v4
       with:
         name: staging-build
         path: publish
-
